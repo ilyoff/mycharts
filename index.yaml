@@ -1,7 +1,21 @@
 apiVersion: v1
 entries:
   myapp:
-  - created: 2017-05-17T11:11:17.309870789+07:00
+  - created: 2017-06-06T15:08:31.818541225+03:00
+    description: A Helm chart template for Kubernetes charts repository
+    digest: 716d2854a994dcc96b2349d703445630968c1e70c68272f6a6620084594963ed
+    engine: gotpl
+    home: https://k8s.community/
+    maintainers:
+    - email: k8s.community@gmail.com
+      name: Kubernetes Community
+    name: myapp
+    sources:
+    - https://github.com/ilyoff/myapp
+    urls:
+    - https://ilyoff.github.io/mycharts/myapp-0.0.6.tgz
+    version: 0.0.6
+  - created: 2017-06-06T15:08:31.816937395+03:00
     description: A Helm chart template for Kubernetes charts repository
     digest: f18546f1b3708ed4b57c58662d0f220b2eead136b10a71019a345e9fbad0d7ba
     engine: gotpl
@@ -13,6 +27,6 @@ entries:
     sources:
     - https://github.com/k8s-community/myapp
     urls:
-    - https://k8s-community.github.io/mycharts/myapp-0.0.5.tgz
+    - https://ilyoff.github.io/mycharts/myapp-0.0.5.tgz
     version: 0.0.5
-generated: 2017-05-17T11:11:17.308000297+07:00
+generated: 2017-06-06T15:08:31.81620018+03:00
